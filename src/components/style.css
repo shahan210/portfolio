@@ -1,0 +1,65 @@
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.satisfy-regular {
+  font-family: "Satisfy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  @apply flex p-4 overflow-hidden justify-between items-center w-full h-20 px-4 text-white  fixed bg-opacity-85;
+}
+.name {
+  @apply text-2xl bg-gradient-to-r from-purple-400 to-pink-500 p-1 bg-clip-text text-transparent satisfy-regular;
+}
+.navbar__menu {
+  @apply flex gap-4  px-4 py-2 z-50;
+}
+.navbar__menu p {
+  @apply bg-gradient-to-r from-violet-300 to-pink-300 bg-clip-text text-transparent cursor-pointer hover:bg-gradient-to-r hover:from-violet-400 hover:to-indigo-400 px-2 py-1 rounded-lg;
+}
+.home {
+  @apply flex justify-center items-center w-full h-screen;
+}
+.sidelinks {
+  @apply fixed left-0 top-[35n%] flex flex-col;
+}
+.Links__resume {
+  @apply flex justify-between items-center bg-green-900 px-3 py-3 cursor-pointer;
+}
+.Links__linkedIn {
+  @apply flex gap-2 justify-between items-center bg-blue-700 px-3 py-3 cursor-pointer;
+}
+.Links__gitHub {
+  @apply flex gap-2 justify-between items-center bg-gray-700 px-3 py-3 cursor-pointer;
+}
+.Links__email {
+  @apply flex gap-2 justify-between items-center bg-gray-800 px-3 py-3 cursor-pointer;
+}
+.icon {
+  @apply size-6 ml-2;
+}
+.home__content {
+  @apply max-w-[60%] min-w-[60%] p-2 flex flex-col gap-10;
+}
+.image__content {
+  @apply flex flex-col md:flex-row p-2 gap-10 items-center w-full justify-center;
+}
+.developer__content {
+  @apply p-2 flex flex-col gap-2;
+}
+.developer__name {
+  @apply text-sm roboto-regular gap-2 flex flex-col [&>*:nth-child(odd)]:text-[#ba5593] [&>*:nth-child(even)]:text-[#C6CFED];
+}
+.developer__shahan {
+  @apply text-5xl uppercase;
+}
+.developer__title {
+  @apply text-5xl text-[#7D86A2];
+}
+.Links {
+  @apply bg-red-600 p-2;
+}
