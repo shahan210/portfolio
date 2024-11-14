@@ -25,7 +25,7 @@
   @apply flex justify-center items-center w-full h-screen;
 }
 .sidelinks {
-  @apply fixed left-0 top-[35n%] flex flex-col;
+  @apply fixed right-0 top-[35n%] flex flex-col;
 }
 .Links__resume {
   @apply flex justify-between items-center bg-green-900 px-3 py-3 cursor-pointer;
@@ -40,26 +40,29 @@
   @apply flex gap-2 justify-between items-center bg-gray-800 px-3 py-3 cursor-pointer;
 }
 .icon {
-  @apply size-6 ml-2;
+  @apply size-6 mr-2;
 }
 .home__content {
-  @apply max-w-[60%] min-w-[60%] p-2 flex flex-col gap-10;
+  @apply grid grid-cols-5 p-2  flex-col gap-10 w-full h-full;
 }
-.image__content {
-  @apply flex flex-col md:flex-row p-2 gap-10 items-center w-full justify-center;
+.developer__details {
+  @apply flex flex-col col-span-4 md:flex-row p-2 gap-10 items-center w-full pl-44;
 }
 .developer__content {
-  @apply p-2 flex flex-col gap-2;
+  @apply p-2 flex flex-col gap-5;
 }
 .developer__name {
-  @apply text-sm roboto-regular gap-2 flex flex-col [&>*:nth-child(odd)]:text-[#ba5593] [&>*:nth-child(even)]:text-[#C6CFED];
+  @apply text-sm roboto-regular gap-2 flex flex-col [&>*:nth-child(odd)]:text-[#6A1E55] [&>*:nth-child(even)]:text-[#C6CFED] w-fit;
 }
 .developer__shahan {
-  @apply text-5xl uppercase;
+  @apply text-5xl uppercase w-fit text-[#FFF6E3];
 }
 .developer__title {
-  @apply text-5xl text-[#7D86A2];
+  @apply text-5xl text-[#9B7EBD] w-fit;
 }
 .Links {
   @apply bg-red-600 p-2;
+}
+.developer__description {
+  @apply text-wrap text-[#A64D79] w-3/4 text-sm;
 }
