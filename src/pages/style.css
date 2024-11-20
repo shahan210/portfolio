@@ -9,17 +9,17 @@
   font-style: normal;
 }
 
-.navbar {
-  @apply flex p-4 overflow-hidden justify-between items-center w-full h-20 px-4 text-white  fixed bg-opacity-85;
-}
 .name {
-  @apply text-2xl bg-gradient-to-r from-purple-400 to-pink-500 p-1 bg-clip-text text-transparent satisfy-regular;
+  @apply text-2xl bg-gradient-to-r from-cyan-200 to-cyan-300 text-center p-1 bg-clip-text text-transparent satisfy-regular;
 }
-.navbar__menu {
-  @apply flex gap-4  px-4 py-2 z-50;
+.sidemenu {
+  @apply bg-gradient-to-r  from-customColor3 to-customColor1 rounded-r-lg   p-2 bg-[#5C5470] flex flex-col gap-10 items-stretch;
 }
-.navbar__menu p {
-  @apply bg-gradient-to-r from-violet-300 to-pink-300 bg-clip-text text-transparent cursor-pointer hover:bg-gradient-to-r hover:from-violet-400 hover:to-indigo-400 px-2 py-1 rounded-lg;
+.sidemenu__menu {
+  @apply flex flex-col gap-3  items-center mt-40;
+}
+.sidemenu__menu p {
+  @apply hover:bg-white text-gray-400 hover:text-white hover:bg-opacity-15 px-4 py-2 rounded-lg w-1/2 cursor-pointer transition-all ease-in-out duration-150;
 }
 .home {
   @apply flex justify-center items-center w-full h-screen;
@@ -28,22 +28,22 @@
   @apply fixed right-0 top-[35n%] flex flex-col;
 }
 .Links__resume {
-  @apply flex justify-between items-center bg-green-900 px-3 py-3 cursor-pointer;
+  @apply flex justify-between items-center bg-green-900 px-3 py-3  rounded-l-lg;
 }
 .Links__linkedIn {
-  @apply flex gap-2 justify-between items-center bg-blue-700 px-3 py-3 cursor-pointer;
+  @apply flex gap-2 justify-between items-center bg-blue-700 px-3 py-3  rounded-l-lg;
 }
 .Links__gitHub {
-  @apply flex gap-2 justify-between items-center bg-gray-700 px-3 py-3 cursor-pointer;
+  @apply flex gap-2 justify-between items-center bg-gray-700 px-3 py-3  rounded-l-lg;
 }
 .Links__email {
-  @apply flex gap-2 justify-between items-center bg-gray-800 px-3 py-3 cursor-pointer;
+  @apply flex gap-2 justify-between items-center bg-gray-800 px-3 py-3  rounded-l-lg;
 }
 .icon {
   @apply size-6 mr-2;
 }
 .home__content {
-  @apply grid grid-cols-5 p-2  flex-col gap-10 w-full h-full;
+  @apply grid grid-cols-5 flex-col gap-10 w-full h-full;
 }
 .developer__details {
   @apply flex flex-col col-span-4 md:flex-row p-2 gap-10 items-center w-full pl-44;

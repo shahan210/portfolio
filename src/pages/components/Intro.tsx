@@ -8,7 +8,7 @@ const Intro: React.FC = () => {
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.0 }}
+          transition={{ duration: 1.0, delay: 1 }}
         >
           Hey, my name is
         </motion.p>
@@ -16,7 +16,7 @@ const Intro: React.FC = () => {
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
+          transition={{ duration: 1.2, delay: 1 }}
           className="developer__shahan"
         >
           Mohammed Shahan
@@ -26,7 +26,7 @@ const Intro: React.FC = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 1 }}
+        transition={{ duration: 1, delay: 2 }}
         className="developer__title"
       >
         I'm a Full Stack Developer
@@ -35,7 +35,7 @@ const Intro: React.FC = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 1 }}
+        transition={{ duration: 1, delay: 2 }}
         className="developer__description"
       >
         A Full Stack Developer, specialized in crafting dynamic and user-friendly web applications. Expertise lies in

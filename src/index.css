@@ -7,6 +7,6 @@
     @apply scroll-smooth;
   }
 }
-body{
-  @apply bg-[#141414] text-white ;
+body {
+  @apply bg-[#0B192C] text-white p-0;
 }

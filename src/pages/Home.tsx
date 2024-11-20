@@ -1,6 +1,7 @@
 import React from "react";
 import SideLinks from "./components/SideLinks";
 import Intro from "./components/Intro";
+import SideMenu from "./components/SideMenu";
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Home: React.FC = () => {
       <SideLinks />
 
       <div className="home__content">
-        <div className="flex justify-center items-center text-3xl border border-white">Side Menu</div>
+        <SideMenu />
         <div className="developer__details">
           <Intro />
         </div>

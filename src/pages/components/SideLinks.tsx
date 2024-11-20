@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const SideLinks: React.FC = () => {
   return (
     <div className="sidelinks">
-      <a href="https://www.google.com" target="blank">
+      <a href="https://www.linkedin.com/in/mohdshahan/" target="blank">
         <motion.div
           initial={{ x: 76 }}
           whileHover={{ x: 0 }}
@@ -18,20 +18,20 @@ const SideLinks: React.FC = () => {
           LinkedIn
         </motion.div>
       </a>
-      <a href="https://www.google.com" target="blank">
+      <a href="https://github.com/shahan210" target="blank">
         <motion.div initial={{ x: 76 }} whileHover={{ x: 0 }} transition={{ duration: 0.3 }} className="Links__gitHub">
           <FaGithub className="icon" />
           GitHub
         </motion.div>
       </a>
-      <a href="https://www.google.com" target="blank">
+      <a  href="mailto:mohammedshahan210@gmail.com" target="blank">
         <motion.div initial={{ x: 76 }} whileHover={{ x: 0 }} transition={{ duration: 0.3 }} className="Links__email">
           <MdOutlineEmail className="icon" />
           Email
         </motion.div>
       </a>
 
-      <a href="https://www.google.com" target="blank">
+      <a href="#" target="blank">
         <motion.div initial={{ x: 76 }} whileHover={{ x: 0 }} transition={{ duration: 0.3 }} className="Links__resume">
           <BsFileEarmarkPerson className="icon" /> Resume
         </motion.div>
